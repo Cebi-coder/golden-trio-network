@@ -19,22 +19,22 @@
         <button onclick="myFunction()" class="dropbtn">Plumbers</button>
         <div id="myDropdown" class="dropdown-content">
             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunctionA()">
-            <a href="#Azola Nxele">Azola Nxele </a>
+            <a href="#Avela Bhinqa">Avela Bhinqa</a>
             <a href="#Jacob lubisi">Jacod lubisi</a>
             <a href="#Isriel Sontonga">Isriel Sontonga</a>
             <a href="#Menzi Johnson">Menzi Johnson</a>
             <a href="#Xolani Thimla">Xolani Thimla</a>
             <a href="#Goodwill Qhina">Goodwill Qhina</a>
-            <a href="#Avela Bhinqa">Avela Bhinqa</a>
+            
         </div>
 
     </div>
     <br></br>
-    <div class="Hair dressers">
-        <button onclick="myFunction()" class="dropbtn">Hair dressers</button>
-        <div id="Hair" class="dropdown-content">
+    <div class="Nail technician">
+        <button onclick="myFunction()" class="dropbtn">Nail technicians</button>
+        <div id="Nails" class="dropdown-content">
             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunctionB()">
-            <a href="#Amanda Zoya">Amanda Zoya</a>
+            <a href="#Zinzi Nxele">Zinzi Nxele</a>
             <a href="#Bongiwe Zweni">Bongiwe Zweni</a>
             <a href="#Bulelwa Mkhize">Bulelwa Mkhize</a>
             <a href="#Candice Mayers">Candice Mayers</a>
@@ -55,48 +55,47 @@
 
         </div>
     </div>
-
-     <script>
+<!-- 
+      <script>
         /* When the user clicks on the button,
         toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
-            document.getElementById("Hair").classList.toggle("show");
-            document.getElementById("movers").classList.toggle("show");
+            document.getElementById("Nails").classList.toggle("show");
+             document.getElementById("movers").classList.toggle("show");
         }
 
-        function filterFunctionA() {
-            var input, filter, ul, li, a, i;
-            input = document.getElementById("myInput");
-            filter = input.value.toUpperCase();
-            div = document.getElementById("myDropdown");
+       function filterFunctionA() {
+             var input, filter, ul, li, a, i;
+             input = document.getElementById("myInput");
+           filter = input.value.toUpperCase();
+             div = document.getElementById("myDropdown");
             a = div.getElementsByTagName("a");
             for (i = 0; i < a.length; i++) {
-                txtValue = a[i].textContent || a[i].innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    a[i].style.display = "";
+                txtValue = a[i].textContent || a[i].innerText;            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                     a[i].style.display = "";
                 } else {
                     a[i].style.display = "none";
                 }
             }
-        }
-        function filterFunctionB() {
-            var input, filter, ul, li, a, i;
-            input = document.getElementById("myInput");
-            filter = input.value.toUpperCase();
+         }
+         function filterFunctionB() {
+             var input, filter, ul, li, a, i;
+             input = document.getElementById("myInput");
+             filter = input.value.toUpperCase();
             div = document.getElementById("Hair");
             b = div.getElementsByTagName("b");
-            for (i = 0; i < b.length; i++) {
-                txtValue = b[i].textContent || b[i].innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    b[i].style.display = "";
-                } else {
-                    b[i].style.display = "none";
-                }
-            }
+            for (i = 0; i < b.length; i++) { -->
+    //             txtValue = b[i].textContent || b[i].innerText;
+    //             if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    //                 b[i].style.display = "";
+    //             } else {
+    //                 b[i].style.display = "none";
+    //             }
+    //         }
 
-        }
-    </script> 
+    //     }
+    // </script> 
 
 </body>
 
